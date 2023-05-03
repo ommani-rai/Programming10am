@@ -21,6 +21,12 @@ int main(){
    printf("enter a number");
    scanf("%d", &num);
    int a = 34;
+   
+   if(num > a){
+    printf("%d is greater than 34", num);
+   }
+
+
    if(num > a){
     printf("%d is greater than 34", num);
    }
