@@ -23,6 +23,9 @@ int main(){
    int a = 34;
    
    if(num > a){
+    // if(){
+
+    // }
     printf("%d is greater than 34", num);
    }
 

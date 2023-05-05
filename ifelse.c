@@ -10,8 +10,6 @@ int main()
     else{
         // body of false
     }
-
-
     */
 
     int age;
