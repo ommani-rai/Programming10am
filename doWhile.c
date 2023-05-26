@@ -20,10 +20,17 @@ int main()
     for(i=1; i<=5; i++){
     fac *= i;
     }
-    3. fibanacci series
+    3. fibonacci series
     0 1 1 2 3 5 8 13 21 34 55
     a = 0;
     b = 1;
+    c = a + b; // 1
+    a = b; // 1
+    b = c; // 1
+    c = a + b; // 1 + 1 = 2
+    a = b // 1
+    b = c // 2
+    c = a + b // 1 + 2 = 3
 
     */
 
