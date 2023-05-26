@@ -28,12 +28,13 @@ int sum(int a, int b)
 }
 
 // function return no value and passing arguments
-int sum(int a, int b)
+int next_sum(int a, int b)
 {
     int sum;
     sum = a + b;
     printf("the sum is: %d", sum);
-    }
+}
+
 // function return no value and passing no argumnets
 int diff()
 {
@@ -41,7 +42,7 @@ int diff()
     int b;
     printf("enter the first number\n");
     scanf("%d", &a);
-    printf("enter the second number\n");
+    printf("enter the  number\n");
     scanf("%d", &b);
     int diff = a - b;
     printf("the difference of number %d and %d is: %d", a, b, diff);
@@ -67,12 +68,12 @@ void welcome()
 
 int main()
 {
-    int s = sum(12, 12);
-    int z = sum(24, 24);
-    printf("sum is: %d\n", s);
-    printf("sum is: %d\n", z);
-    // diff();
-    welcome();
+    // int s = sum(12, 12);
+    // int z = sum(24, 24);
+    // printf("sum is: %d\n", s);
+    // printf("sum is: %d\n", z);
+    diff();
+    // welcome();
 
     return 0;
 }
