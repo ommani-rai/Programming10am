@@ -27,12 +27,9 @@ int main()
     F T = T
     F F = F
 
-
-
     c) logical not(!=)
     T = F
     F = T
-
 
     4. assignment operator
     =, +=, -=, *=, /=, %=
@@ -50,7 +47,7 @@ int main()
            2.  y = a++
                 y = a
                 a = a + 1
-    6. comparision/ternary operator
+    6. conditional/ternary operator
     syntax:
     condition ? when true : when false
 
@@ -71,9 +68,6 @@ int main()
     int rem = a % b;
 
     printf("the remainder of %d and %d is %d\n", a, b, rem);
-    
-
-
     printf("the sum of %d and %d is: %d\n", b, a, sum);
     printf("the difference of %d and %d is %d\n", a, b, difference);
     // printf("the division of %d and %d is %f\n", a, b, division);

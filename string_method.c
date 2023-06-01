@@ -17,15 +17,21 @@ int main()
     char lname[50] = "Magar";
 
     char second_name[50];
-    // int len = strlen(name);
-    // strcpy(second_name, name);
-    // strcat(mname, lname);
-    // strcat(fname, mname);
+    int len = strlen(name);
+    printf("the length of ram is: %d",len);
+    strcpy(second_name, name);
+    printf("now the second_name is: %s", second_name);
+    strcat(mname, lname);
+    printf("now the concatinated string is: %s", mname);
+    strcat(fname, mname);
+    printf("now the concatinated string is %s", fname);
 
-    if(strcmp(name, fname)==0){
+    if (strcmp(name, fname) == 0)
+    {
         printf("equall string");
     }
-    else{
+    else
+    {
         printf("not equall");
     }
 
