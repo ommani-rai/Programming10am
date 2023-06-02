@@ -18,8 +18,8 @@ int main()
 
     char second_name[50];
     int len = strlen(name);
-    printf("the length of ram is: %d",len);
-    strcpy(second_name, name);
+    printf("the length of ram is: %d", len);
+    strcpy(second_name, fname);
     printf("now the second_name is: %s", second_name);
     strcat(mname, lname);
     printf("now the concatinated string is: %s", mname);
